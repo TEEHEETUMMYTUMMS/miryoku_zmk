@@ -1,6 +1,10 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+// Trying out corne in boot menu/grub/bios
+CONFIG_ZMK_USB_BOOT=y 
+CONFIG_USB_HID_BOOT_PROTOCOL=y
+
 #define MIRYOKU_CLIPBOARD_WIN
 // #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 // #define MIRYOKU_KEYBOARD_CORNE
