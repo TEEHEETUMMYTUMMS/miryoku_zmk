@@ -76,7 +76,7 @@ U_NP,                  U_NP,                  &kp DEL,               &kp BSPC,  
 &kp SQT,               &kp COMMA,             &kp UP,                &kp E,                 &kp Y,                &kp F,                 &kp G,                 &kp C,                 &kp R,                 &kp L,                 \
 &kp A,                 &kp LEFT,              &kp DOWN,              &kp RIGHT,             &kp I,                &kp D,                 U_MT(LSHFT, H),        U_MT(LCTRL, T),        U_MT(LGUI, N),         U_MT(LALT, S),         \
 &kp SEMI,              &kp Q,                 &kp J,                 &kp K,                 &kp X,                &kp B,                 &kp M,                 &kp W,                 &kp V,                 &kp Z,                 \
-U_NP,                  U_NP,                  &kp DEL,               &kp BSPC,              U_LT(U_NUM, TAB),     &kp RET,               &kp SPACE,             &kp ESC,               U_NP,                  U_NP
+U_NP,                  U_NP,                  &kp DEL,               &kp BSPC,              U_LT(U_NUM, TAB),     U_LT(U_NAV, RET),      U_LT(U_MOUSE, SPACE),  U_LT(U_MEDIA, ESC),    U_NP,                  U_NP
 
 #define MIRYOKU_LAYER_BUTTON \
 U_BOOT,                &mo U_TAP,             &to U_EXTRA,           &to U_BASE,            &to U_BUTTON,         &to U_BUTTON,          &to U_BASE,            &kp ESC,               &mo U_TAP,             U_BOOT,                \
